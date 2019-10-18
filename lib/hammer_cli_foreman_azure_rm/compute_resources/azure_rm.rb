@@ -7,17 +7,46 @@ module HammerCLIForemanAzureRM
         _('AzureRM')
       end
 
+      def compute_attributes
+        [
+          ['resource_group', _('Existing Azure Resource Group of user')],
+          ['vm_size', _('VM Size, eg. Standard A0 etc.')],
+          ['username', _('The Admin username')],
+          ['password', _('The Admin password')],
+          ['platform', _('OS type')],
+          ['ssh_key_data', _('SSH key for passwordless authentication')],
+          ['os_disk_caching', _('OS disk caching')],
+          ['premium_os_disk', _('Premium OS Disk, Boolean as 0 or 1')],
+          ['script_command', _('Custom Script Command')],
+          ['script_uris', _('Comma seperated file URIs')]
+        ]
+      end
+
+      def host_attributes
+        [
+          ['start', _('Boolean (expressed as 0 or 1), whether to start the machine or not')]
+        ]
+      end
+
+      def interface_attributes
+        [
+          ['public_ip',  _('Public IP (None, Static, Dynamic)')],
+          ['network',    _('Select one of available Azure Subnets, must be an ID')],
+          ['private_ip', _('Static Private IP (expressed as 0 or 1)')]
+        ]
+
       def provider_specific_fields
         [
             Fields::Field.new(:label => _('tenant'), :path => [:tenant]),
             Fields::Field.new(:label => _('app_ident'), :path => [:app_ident]),
             Fields::Field.new(:label => _('secret_key'), :path => [:secret_key]),
             Fields::Field.new(:label => _('sub_id'), :path => [:sub_id]),
+            Fields::Field.new(:label => _('region'), :path => [:region])
         ]
       end
 
       def mandatory_resource_options
-        super + %i[tenant app_ident secret_key sub_id]
+        super + %i[tenant app_ident secret_key sub_id region]
       end
     end
   end

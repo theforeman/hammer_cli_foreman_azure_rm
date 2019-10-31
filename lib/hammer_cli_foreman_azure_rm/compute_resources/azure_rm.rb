@@ -10,13 +10,14 @@ module HammerCLIForemanAzureRM
       def compute_attributes
         [
           ['resource_group', _('Existing Azure Resource Group of user')],
-          ['vm_size', _('VM Size, eg. Standard A0 etc.')],
+          ['vm_size', _('VM Size, eg. Standard_A0 etc.')],
           ['username', _('The Admin username')],
           ['password', _('The Admin password')],
-          ['platform', _('OS type')],
+          ['platform', _('OS type eg. Linux')],
           ['ssh_key_data', _('SSH key for passwordless authentication')],
           ['os_disk_caching', _('OS disk caching')],
           ['premium_os_disk', _('Premium OS Disk, Boolean as 0 or 1')],
+          ['image_id', _('ID of image used')],
           ['script_command', _('Custom Script Command')],
           ['script_uris', _('Comma seperated file URIs')]
         ]
@@ -30,10 +31,11 @@ module HammerCLIForemanAzureRM
 
       def interface_attributes
         [
-          ['public_ip',  _('Public IP (None, Static, Dynamic)')],
-          ['network',    _('Select one of available Azure Subnets, must be an ID')],
-          ['private_ip', _('Static Private IP (expressed as 0 or 1)')]
+          ['compute_network',    _('Select one of available Azure Subnets, must be an ID')],
+          ['compute_public_ip',  _('Public IP (None, Static, Dynamic)')],
+          ['compute_private_ip', _('Static Private IP (expressed as true or false)')]
         ]
+      end
 
       def provider_specific_fields
         [

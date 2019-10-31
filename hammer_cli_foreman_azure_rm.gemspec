@@ -4,7 +4,7 @@ require "hammer_cli_foreman_azure_rm/version"
 Gem::Specification.new do |s|
   s.name = "hammer_cli_foreman_azure_rm"
   s.authors = ["Aditi Puntambekar"]
-  s.homepage = 'https://github.com/apuntamb/hammer_cli_foreman_azure_rm'
+  s.homepage = 'https://github.com/theforeman/hammer_cli_foreman_azure_rm'
   s.version = HammerCLIForemanAzureRM.version.dup
   s.license = 'GPL-3.0'
   s.platform = Gem::Platform::RUBY

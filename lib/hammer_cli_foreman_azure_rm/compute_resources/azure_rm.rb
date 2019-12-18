@@ -17,15 +17,8 @@ module HammerCLIForemanAzureRM
           ['ssh_key_data', _('SSH key for passwordless authentication')],
           ['os_disk_caching', _('OS disk caching')],
           ['premium_os_disk', _('Premium OS Disk, Boolean as 0 or 1')],
-          ['image_id', _('ID of image used')],
           ['script_command', _('Custom Script Command')],
           ['script_uris', _('Comma seperated file URIs')]
-        ]
-      end
-
-      def host_attributes
-        [
-          ['start', _('Boolean (expressed as 0 or 1), whether to start the machine or not')]
         ]
       end
 

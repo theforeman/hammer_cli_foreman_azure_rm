@@ -1,8 +1,8 @@
 require 'hammer_cli_foreman/compute_resource/base'
 
-module HammerCLIForemanAzureRM
+module HammerCLIForemanAzureRm
   module ComputeResources
-    class AzureRM < HammerCLIForeman::ComputeResources::Base
+    class AzureRm < HammerCLIForeman::ComputeResources::Base
       def name
         _('AzureRM')
       end

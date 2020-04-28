@@ -30,6 +30,13 @@ module HammerCLIForemanAzureRm
         ]
       end
 
+      def volume_attributes
+        [
+          ['disk_size_gb', _('Volume Size in GB (integer value)')],
+          ['data_disk_caching', _('Data Disk Caching (None, ReadOnly, ReadWrite)')]
+        ]
+      end
+
       def provider_specific_fields
         [
             Fields::Field.new(:label => _('tenant'), :path => [:tenant]),

@@ -5,9 +5,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer-cli-foreman-azure-rm 0.1.2\n"
+"Project-Id-Version: hammer-cli-foreman-azure-rm \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-04-07 21:19+0530\n"
 "PO-Revision-Date: 2020-04-07 21:19+0530\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: English\n"
@@ -75,17 +74,25 @@ msgid "Static Private IP (expressed as true or false)"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:35
-msgid "tenant"
+msgid "Volume Size in GB (integer value)"
 msgstr ""
 
 #: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:36
+msgid "Data Disk Caching (None, ReadOnly, ReadWrite)"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:42
+msgid "tenant"
+msgstr ""
+
+#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:43
 msgid "app_ident"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:37
+#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:44
 msgid "sub_id"
 msgstr ""
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:38
+#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:45
 msgid "region"
 msgstr ""

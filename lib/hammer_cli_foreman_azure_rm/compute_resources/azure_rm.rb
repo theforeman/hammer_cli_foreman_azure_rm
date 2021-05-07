@@ -42,7 +42,8 @@ module HammerCLIForemanAzureRm
             Fields::Field.new(:label => _('tenant'), :path => [:tenant]),
             Fields::Field.new(:label => _('app_ident'), :path => [:app_ident]),
             Fields::Field.new(:label => _('sub_id'), :path => [:sub_id]),
-            Fields::Field.new(:label => _('region'), :path => [:region])
+            Fields::Field.new(:label => _('region'), :path => [:region]),
+            Fields::Field.new(:label => _('cloud'), :path => [:cloud]),
         ]
       end
 

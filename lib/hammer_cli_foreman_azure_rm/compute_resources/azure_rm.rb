@@ -41,13 +41,12 @@ module HammerCLIForemanAzureRm
         [
             Fields::Field.new(:label => _('tenant'), :path => [:tenant]),
             Fields::Field.new(:label => _('app_ident'), :path => [:app_ident]),
-            Fields::Field.new(:label => _('sub_id'), :path => [:sub_id]),
             Fields::Field.new(:label => _('region'), :path => [:region])
         ]
       end
 
       def mandatory_resource_options
-        super + %i[tenant app_ident secret_key sub_id region]
+        super + %i[tenant app_ident secret_key region]
       end
     end
   end

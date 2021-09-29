@@ -24,4 +24,3 @@ module HammerCLIForemanAzureRm
 end
 
 HammerCLI::I18n.add_domain(HammerCLIForemanAzureRm::I18n::LocaleDomain.new)
-

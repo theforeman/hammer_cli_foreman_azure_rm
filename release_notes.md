@@ -1,3 +1,7 @@
+### 0.2.3
+* Fix translation infrastructure
+* Remove Gemfile.lock
+
 ### 0.2.2
 
 * Refs #33119 - Adding Rubocop support to Hammer Repo

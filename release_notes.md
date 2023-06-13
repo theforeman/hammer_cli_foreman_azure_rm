@@ -1,3 +1,6 @@
+### 0.2.4
+* Translation improvments
+
 ### 0.2.3
 * Fix translation infrastructure
 * Remove Gemfile.lock

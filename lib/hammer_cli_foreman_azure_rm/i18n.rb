@@ -13,7 +13,7 @@ module HammerCLIForemanAzureRm
       end
 
       def domain_name
-        'hammer-cli-foreman-azure-rm'
+        'hammer_cli_foreman_azure_rm'
       end
 
       def type

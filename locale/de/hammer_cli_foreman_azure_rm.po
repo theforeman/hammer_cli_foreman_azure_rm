@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_azure_rm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_azure_rm 0.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 14:51+0000\n"
+"PO-Revision-Date: 2023-07-12 14:51+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "AzureRM"
+msgstr "AzureRM"
+
+msgid "Existing Azure Resource Group of user"
+msgstr "Vorhandene Azure-Ressourcengruppe des Benutzers"
+
+msgid "VM Size, eg. Standard_A0 etc."
+msgstr "VM-Größe, z. Standard_A0 usw."
+
+msgid "The Admin username"
+msgstr "Der Admin-Benutzername"
+
+msgid "The Admin password"
+msgstr "Das Admin-Passwort"
+
+msgid "OS type eg. Linux"
+msgstr "Betriebssystemtyp zB. Linux"
+
+msgid "SSH key for passwordless authentication"
+msgstr "SSH-Schlüssel für die passwortlose Authentifizierung"
+
+msgid "OS disk caching"
+msgstr "Caching von Betriebssystem-Festplatten"
+
+msgid "Premium OS Disk, Boolean as 0 or 1"
+msgstr "Premium OS Disk, Boolean als 0 oder 1"
+
+msgid "Custom Script Command"
+msgstr "Benutzerdefinierter Skriptbefehl"
+
+msgid "Comma seperated file URIs"
+msgstr "Durch Kommas getrennte Datei-URIs"
+
+msgid "Select one of available Azure Subnets, must be an ID"
+msgstr "Wählen Sie eines der verfügbaren Azure-Subnetze aus, muss eine ID sein"
+
+msgid "Public IP (None, Static, Dynamic)"
+msgstr "Öffentliche IP (Keine, Statisch, Dynamisch)"
+
+msgid "Static Private IP (expressed as true or false)"
+msgstr "Statische private IP (ausgedrückt als wahr oder falsch)"
+
+msgid "Volume Size in GB (integer value)"
+msgstr "Volume-Größe in GB (Ganzzahlwert)"
+
+msgid "Data Disk Caching (None, ReadOnly, ReadWrite)"
+msgstr "Caching von Datenfestplatten (keine, ReadOnly, ReadWrite)"
+
+msgid "tenant"
+msgstr "Tenant"
+
+msgid "app_ident"
+msgstr "app_ident"
+
+msgid "sub_id"
+msgstr "sub_id"
+
+msgid "region"
+msgstr "Region"
+
+msgid "cloud"
+msgstr ""

@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_azure_rm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_azure_rm 0.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 14:51+0000\n"
+"PO-Revision-Date: 2023-07-12 14:51+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "AzureRM"
+msgstr "AzureRM"
+
+msgid "Existing Azure Resource Group of user"
+msgstr "用户现有的 Azure 资源组"
+
+msgid "VM Size, eg. Standard_A0 etc."
+msgstr "虚拟机的大小，例如 Standard_A0 等"
+
+msgid "The Admin username"
+msgstr "管理员用户名"
+
+msgid "The Admin password"
+msgstr "管理员密码"
+
+msgid "OS type eg. Linux"
+msgstr "操作系统类型，例如 Linux"
+
+msgid "SSH key for passwordless authentication"
+msgstr "用于无密码身份验证的 SSH 密钥"
+
+msgid "OS disk caching"
+msgstr "操作系统磁盘缓存"
+
+msgid "Premium OS Disk, Boolean as 0 or 1"
+msgstr "高级操作系统磁盘，布尔值 0 或 1"
+
+msgid "Custom Script Command"
+msgstr "自定义脚本命令"
+
+msgid "Comma seperated file URIs"
+msgstr "逗号分隔的文件 URI"
+
+msgid "Select one of available Azure Subnets, must be an ID"
+msgstr "选择一个可用的 Azure 子网，必须是一个 ID"
+
+msgid "Public IP (None, Static, Dynamic)"
+msgstr "公共 IP（无、静态或动态）"
+
+msgid "Static Private IP (expressed as true or false)"
+msgstr "静态私有 IP（true 或 false）"
+
+msgid "Volume Size in GB (integer value)"
+msgstr "卷大小，以 GB 为单位（整数值）"
+
+msgid "Data Disk Caching (None, ReadOnly, ReadWrite)"
+msgstr "数据磁盘缓存（无、只读、读写）"
+
+msgid "tenant"
+msgstr "租户"
+
+msgid "app_ident"
+msgstr "app_ident"
+
+msgid "sub_id"
+msgstr "sub_id"
+
+msgid "region"
+msgstr "区域"
+
+msgid "cloud"
+msgstr ""

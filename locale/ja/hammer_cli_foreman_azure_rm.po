@@ -1,0 +1,82 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_azure_rm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_azure_rm 0.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 14:51+0000\n"
+"PO-Revision-Date: 2023-07-12 14:51+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "AzureRM"
+msgstr "AzureRM"
+
+msgid "Existing Azure Resource Group of user"
+msgstr "ユーザーの既存の Azure リソースグループ"
+
+msgid "VM Size, eg. Standard_A0 etc."
+msgstr "仮想マシンサイズ (例: Standard_A0)"
+
+msgid "The Admin username"
+msgstr "管理者のユーザー名"
+
+msgid "The Admin password"
+msgstr "管理者のパスワード"
+
+msgid "OS type eg. Linux"
+msgstr "OS タイプ (例: Linux)"
+
+msgid "SSH key for passwordless authentication"
+msgstr "パスワードなし認証用の SSH キー"
+
+msgid "OS disk caching"
+msgstr "OS ディスクキャッシング"
+
+msgid "Premium OS Disk, Boolean as 0 or 1"
+msgstr "プレミアム OS ディスク、ブール値 0 または 1"
+
+msgid "Custom Script Command"
+msgstr "カスタムスクリプトコマンド"
+
+msgid "Comma seperated file URIs"
+msgstr "コンマ区切りファイル URI"
+
+msgid "Select one of available Azure Subnets, must be an ID"
+msgstr ""
+"利用可能な Azure サブネットの 1 つを選択してください。ID である必要があります"
+
+msgid "Public IP (None, Static, Dynamic)"
+msgstr "パブリック IP (なし、静的、動的)"
+
+msgid "Static Private IP (expressed as true or false)"
+msgstr "静的プライベート IP (true または false で表現)"
+
+msgid "Volume Size in GB (integer value)"
+msgstr "ボリュームサイズ (GB 単位)、整数値"
+
+msgid "Data Disk Caching (None, ReadOnly, ReadWrite)"
+msgstr "データディスクキャッシュ (なし、読み取り専用、読み取り書き込み)"
+
+msgid "tenant"
+msgstr "テナント"
+
+msgid "app_ident"
+msgstr "app_ident"
+
+msgid "sub_id"
+msgstr "sub_id"
+
+msgid "region"
+msgstr "リージョン"
+
+msgid "cloud"
+msgstr ""

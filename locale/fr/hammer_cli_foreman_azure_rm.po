@@ -1,0 +1,84 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_azure_rm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_azure_rm 0.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 14:51+0000\n"
+"PO-Revision-Date: 2023-07-12 14:51+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "AzureRM"
+msgstr "AzureRM"
+
+msgid "Existing Azure Resource Group of user"
+msgstr "Groupe de ressources Azure existant de l'utilisateur"
+
+msgid "VM Size, eg. Standard_A0 etc."
+msgstr "Taille de la VM, par exemple Standard_A0 etc."
+
+msgid "The Admin username"
+msgstr "Le nom d'utilisateur Admin"
+
+msgid "The Admin password"
+msgstr "Le mot de passe Admin"
+
+msgid "OS type eg. Linux"
+msgstr "Type de système d'exploitation, par exemple Linux"
+
+msgid "SSH key for passwordless authentication"
+msgstr "Clé SSH pour une authentification sans mot de passe"
+
+msgid "OS disk caching"
+msgstr "Mise en cache du disque du système d’exploitation"
+
+msgid "Premium OS Disk, Boolean as 0 or 1"
+msgstr "Disque Premium OS, booléen comme 0 ou 1"
+
+msgid "Custom Script Command"
+msgstr "Commande de script personnalisé"
+
+msgid "Comma seperated file URIs"
+msgstr "Fichier URI séparé par des virgules"
+
+msgid "Select one of available Azure Subnets, must be an ID"
+msgstr "Sélectionnez un des sous-réseaux Azur disponibles, doit être un ID"
+
+msgid "Public IP (None, Static, Dynamic)"
+msgstr "Propriété intellectuelle publique (Aucune, Statique, Dynamique)"
+
+msgid "Static Private IP (expressed as true or false)"
+msgstr ""
+"Propriété intellectuelle privée statique (exprimée comme vraie ou fausse)"
+
+msgid "Volume Size in GB (integer value)"
+msgstr "Taille du volume en Go (nombre entier)"
+
+msgid "Data Disk Caching (None, ReadOnly, ReadWrite)"
+msgstr ""
+"Mise en cache des disques de données (Aucune, Lecture seule, Lecture-"
+"écriture)"
+
+msgid "tenant"
+msgstr "tenant"
+
+msgid "app_ident"
+msgstr "app_ident"
+
+msgid "sub_id"
+msgstr "sub_id"
+
+msgid "region"
+msgstr "région"
+
+msgid "cloud"
+msgstr ""

@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_azure_rm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_azure_rm 0.2.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 14:51+0000\n"
+"PO-Revision-Date: 2023-07-12 14:51+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgid "AzureRM"
+msgstr "AzureRM"
+
+msgid "Existing Azure Resource Group of user"
+msgstr "Grupo de recursos de usuário existentes do Azure"
+
+msgid "VM Size, eg. Standard_A0 etc."
+msgstr "Tamanho da MV, por exemplo, Standard_A0 etc."
+
+msgid "The Admin username"
+msgstr "O nome de usuário Admin"
+
+msgid "The Admin password"
+msgstr "A senha de Admin"
+
+msgid "OS type eg. Linux"
+msgstr "Tipo de SO, por exemplo, Linux"
+
+msgid "SSH key for passwordless authentication"
+msgstr "Chave SSH para autenticação sem senha"
+
+msgid "OS disk caching"
+msgstr "Cache em disco do SO"
+
+msgid "Premium OS Disk, Boolean as 0 or 1"
+msgstr "Disco de SO Premium, Booleano como 0 ou 1"
+
+msgid "Custom Script Command"
+msgstr "Comando de script personalizado"
+
+msgid "Comma seperated file URIs"
+msgstr "URIs de arquivo separado por vírgula"
+
+msgid "Select one of available Azure Subnets, must be an ID"
+msgstr "Selecione uma das sub-redes do Azure disponíveis, deve ser uma ID"
+
+msgid "Public IP (None, Static, Dynamic)"
+msgstr "IP público (nenhum, estático, dinâmico)"
+
+msgid "Static Private IP (expressed as true or false)"
+msgstr "IP privado estático (expresso como verdadeiro ou falso)"
+
+msgid "Volume Size in GB (integer value)"
+msgstr "Tamanho do volume em GB (valor inteiro)"
+
+msgid "Data Disk Caching (None, ReadOnly, ReadWrite)"
+msgstr "Cache de disco de dados (nenhum, somente leitura, leitura e gravação)"
+
+msgid "tenant"
+msgstr "locatário"
+
+msgid "app_ident"
+msgstr "app_ident"
+
+msgid "sub_id"
+msgstr "sub_id"
+
+msgid "region"
+msgstr "região"
+
+msgid "cloud"
+msgstr ""

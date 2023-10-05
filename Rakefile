@@ -4,3 +4,22 @@ require 'hammer_cli_foreman_azure_rm/i18n'
 require 'hammer_cli/i18n/find_task'
 HammerCLI::I18n::FindTask.define(HammerCLIForemanAzureRm::I18n::LocaleDomain.new,
                                  HammerCLIForemanAzureRm.version)
+
+begin
+  require 'rubocop/rake_task'
+  RuboCop::RakeTask.new
+
+  desc "Runs Rubocop style checker with xml output for Jenkins"
+  task 'rubocop:jenkins' do
+    system("bundle exec rubocop \
+            --require rubocop/formatter/checkstyle_formatter \
+            --format Rubocop::Formatter::CheckstyleFormatter \
+            --no-color --out rubocop.xml")
+  end
+rescue => _
+  puts "Rubocop not loaded."
+end
+
+task :default do
+  Rake::Task['rubocop'].execute
+end

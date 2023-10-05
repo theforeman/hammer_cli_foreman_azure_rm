@@ -1,17 +1,18 @@
+# TODO: remove this
 inherit_from: .rubocop_todo.yml
 
 AllCops:
-  TargetRubyVersion: 2.5
+  TargetRubyVersion: 2.3
 
 MethodLength:
   Description: 'Avoid methods longer than 30 lines of code.'
-  Max: 65 # default is 10
+  Max: 30 # default is 10
 
 Documentation:
   Enabled: false
 
 StringLiterals:
-  Enabled: true
+  Enabled: false
 
 HashSyntax:
   Enabled: false
@@ -24,9 +25,6 @@ Encoding:
 
 LineLength:
   Max: 100
-
-FrozenStringLiteralComment:
-  Enabled: true
 
 FormatString:
   Enabled: false # we use % for i18n
@@ -49,10 +47,10 @@ RescueModifier:
 AssignmentInCondition:
   Enabled: false
 
-ParameterAlignment:
+AlignParameters:
   Enabled: false # don't care if parameters are not aligned
 
-ParameterAlignment:
+AlignParameters:
   Enabled: false # don't care if parameters are not aligned
 
 WhileUntilModifier:
@@ -82,26 +80,14 @@ FormatString:
 Style/Alias:
   Enabled: false
 
-Style/CommandLiteral:
-  EnforcedStyle: mixed
+Style/IndentArray:
+  EnforcedStyle: consistent
 
-Style/TrailingEmptyLines:
-  Enabled: true
-
-Style/HashSyntax:
-  Enabled: true
-
-Style/TrailingCommaInArrayLiteral:
-  Enabled: true
-
-Layou/MultilineMethodCallBraceLayout:
+Style/MultilineMethodCallBraceLayout:
   Enabled: false
 
-Layout/MultilineHashBraceLayout:
+Style/MultilineHashBraceLayout:
   Enabled: false
 
-Layout/MultilineArrayBraceLayout:
+Style/MultilineArrayBraceLayout:
   Enabled: false
-
-Layout/FirstArrayElementIndentation:
-  Enabled: true

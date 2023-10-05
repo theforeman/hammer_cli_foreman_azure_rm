@@ -5,4 +5,6 @@ gemspec
 
 group :test do
   gem 'rake', '~> 13.0'
+  gem 'rubocop', '0.42'
+  gem 'rubocop-checkstyle_formatter'
 end

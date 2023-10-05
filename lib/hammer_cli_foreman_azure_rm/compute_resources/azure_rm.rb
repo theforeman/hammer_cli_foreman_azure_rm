@@ -50,7 +50,7 @@ module HammerCLIForemanAzureRm
       end
 
       def mandatory_resource_options
-        super + %i[tenant app_ident secret_key sub_id region]
+        super + %i(tenant app_ident secret_key sub_id region)
       end
     end
   end

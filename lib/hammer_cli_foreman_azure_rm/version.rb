@@ -2,6 +2,6 @@
 
 module HammerCLIForemanAzureRm
   def self.version
-    @version ||= Gem::Version.new '0.3.0'
+    @version ||= Gem::Version.new '0.3.1'
   end
 end

@@ -20,7 +20,7 @@ module HammerCLIForemanAzureRm
           ['os_disk_caching', _('OS disk caching')],
           ['premium_os_disk', _('Premium OS Disk, Boolean as 0 or 1')],
           ['script_command', _('Custom Script Command')],
-          ['script_uris', _('Comma seperated file URIs')]
+          ['script_uris', _('Comma seperated file URIs')],
         ]
       end
 
@@ -28,14 +28,14 @@ module HammerCLIForemanAzureRm
         [
           ['compute_network',    _('Select one of available Azure Subnets, must be an ID')],
           ['compute_public_ip',  _('Public IP (None, Static, Dynamic)')],
-          ['compute_private_ip', _('Static Private IP (expressed as true or false)')]
+          ['compute_private_ip', _('Static Private IP (expressed as true or false)')],
         ]
       end
 
       def volume_attributes
         [
           ['disk_size_gb', _('Volume Size in GB (integer value)')],
-          ['data_disk_caching', _('Data Disk Caching (None, ReadOnly, ReadWrite)')]
+          ['data_disk_caching', _('Data Disk Caching (None, ReadOnly, ReadWrite)')],
         ]
       end
 
@@ -45,12 +45,12 @@ module HammerCLIForemanAzureRm
           Fields::Field.new(:label => _('app_ident'), :path => [:app_ident]),
           Fields::Field.new(:label => _('sub_id'), :path => [:sub_id]),
           Fields::Field.new(:label => _('region'), :path => [:region]),
-          Fields::Field.new(:label => _('cloud'), :path => [:cloud])
+          Fields::Field.new(:label => _('cloud'), :path => [:cloud]),
         ]
       end
 
       def mandatory_resource_options
-        super + %i(tenant app_ident secret_key sub_id region)
+        super + %i[tenant app_ident secret_key sub_id region]
       end
     end
   end

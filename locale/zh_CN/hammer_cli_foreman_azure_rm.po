@@ -5,6 +5,7 @@
 # 
 # Translators:
 # Amit Upadhye <aupadhye@redhat.com>, 2020
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
 # 
 #, fuzzy
 msgid ""
@@ -13,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 14:51+0000\n"
 "PO-Revision-Date: 2020-04-21 13:51+0000\n"
-"Last-Translator: Amit Upadhye <aupadhye@redhat.com>, 2020\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024\n"
 "Language-Team: Chinese (China) (https://app.transifex.com/foreman/teams/114/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -103,4 +104,4 @@ msgstr "区域"
 
 #: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:48
 msgid "cloud"
-msgstr ""
+msgstr "云"

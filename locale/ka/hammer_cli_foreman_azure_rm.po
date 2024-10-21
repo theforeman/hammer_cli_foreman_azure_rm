@@ -2,106 +2,81 @@
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the hammer_cli_foreman_azure_rm package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
-# Translators:
-# Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023
-# 
-#, fuzzy
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_azure_rm 0.2.4\n"
+"Project-Id-Version: hammer_cli_foreman_azure_rm 0.3.1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 14:51+0000\n"
-"PO-Revision-Date: 2020-04-21 13:51+0000\n"
-"Last-Translator: Temuri Doghonadze <temuri.doghonadze@gmail.com>, 2023\n"
-"Language-Team: Georgian (https://app.transifex.com/foreman/teams/114/ka/)\n"
+"PO-Revision-Date: 2023-07-12 14:51+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ka\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:9
 msgid "AzureRM"
 msgstr "AzureRM"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:14
 msgid "Existing Azure Resource Group of user"
 msgstr "მომხმარებლის Azure-ს რესურსების არსებული ჯგუფი"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:15
 msgid "VM Size, eg. Standard_A0 etc."
 msgstr "ვმ-ის ზომა. მაგ Standard_A0 და ა.შ."
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:16
 msgid "The Admin username"
 msgstr "ადმინისტრატორის მომხმარებლის სახელი"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:17
 msgid "The Admin password"
 msgstr "ადმინისტრატორის პაროლი"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:18
 msgid "OS type eg. Linux"
 msgstr "ოს-ის ტიპი. მაგ: Linux"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:19
 msgid "SSH key for passwordless authentication"
 msgstr "SSH გასაღები უპაროლო ავთენტიკაციისთვის"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:20
 msgid "OS disk caching"
 msgstr "ოს-ის დისკის ქეში"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:21
 msgid "Premium OS Disk, Boolean as 0 or 1"
 msgstr "ოს-ის პრემიუმ დისკი. 0 ან 1"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:22
 msgid "Custom Script Command"
 msgstr "ხელით შეყვანილი სკრიპტი"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:23
 msgid "Comma seperated file URIs"
 msgstr "ფაილების მძიმით დაშორებული URI-ები"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:29
 msgid "Select one of available Azure Subnets, must be an ID"
 msgstr ""
 "აირჩიეთ Azure-ის ერთერთი ხელმისაწვდომი ქვექსელი. უნდა წარმოადგენდეს ID-ს"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:30
 msgid "Public IP (None, Static, Dynamic)"
 msgstr "საჯარო IP (არაფერი, სტატიკური, დინამიკური)"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:31
 msgid "Static Private IP (expressed as true or false)"
 msgstr "სტატიკური შიდა IP (0 ან 1)"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:37
 msgid "Volume Size in GB (integer value)"
 msgstr "საცავის ზომა, მთელ რიცხვებში, გიგაბაიტებით"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:38
 msgid "Data Disk Caching (None, ReadOnly, ReadWrite)"
 msgstr "მონაცემების დისკის ქეში (არა, მხოლოდკითხვა, წერაკითხვა)"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:44
 msgid "tenant"
 msgstr "tenant"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:45
 msgid "app_ident"
 msgstr "app_ident"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:46
 msgid "sub_id"
 msgstr "sub_id"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:47
 msgid "region"
 msgstr "region"
 
-#: ../lib/hammer_cli_foreman_azure_rm/compute_resources/azure_rm.rb:48
 msgid "cloud"
 msgstr "ღრუბელი"

@@ -1,0 +1,82 @@
+# Gujarati translations for hammer_cli_foreman_azure_rm package.
+# Copyright (C) 2024 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the hammer_cli_foreman_azure_rm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: hammer_cli_foreman_azure_rm 0.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-12 14:51+0000\n"
+"PO-Revision-Date: 2024-10-21 16:12-0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Gujarati\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=; plural=;\n"
+"\n"
+
+msgid "AzureRM"
+msgstr ""
+
+msgid "Existing Azure Resource Group of user"
+msgstr ""
+
+msgid "VM Size, eg. Standard_A0 etc."
+msgstr ""
+
+msgid "The Admin username"
+msgstr ""
+
+msgid "The Admin password"
+msgstr ""
+
+msgid "OS type eg. Linux"
+msgstr ""
+
+msgid "SSH key for passwordless authentication"
+msgstr ""
+
+msgid "OS disk caching"
+msgstr ""
+
+msgid "Premium OS Disk, Boolean as 0 or 1"
+msgstr ""
+
+msgid "Custom Script Command"
+msgstr ""
+
+msgid "Comma seperated file URIs"
+msgstr ""
+
+msgid "Select one of available Azure Subnets, must be an ID"
+msgstr ""
+
+msgid "Public IP (None, Static, Dynamic)"
+msgstr ""
+
+msgid "Static Private IP (expressed as true or false)"
+msgstr ""
+
+msgid "Volume Size in GB (integer value)"
+msgstr ""
+
+msgid "Data Disk Caching (None, ReadOnly, ReadWrite)"
+msgstr ""
+
+msgid "tenant"
+msgstr ""
+
+msgid "app_ident"
+msgstr ""
+
+msgid "sub_id"
+msgstr ""
+
+msgid "region"
+msgstr ""
+
+msgid "cloud"
+msgstr ""

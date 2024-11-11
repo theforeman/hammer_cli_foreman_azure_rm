@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 # Translators:
-# pdolinic, 2021
+# Ewoud Kohl van Wijngaarden <ewoud+transifex@kohlvanwijngaarden.nl>, 2024
 #
 #, fuzzy
 msgid ""
@@ -13,64 +13,65 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 14:51+0000\n"
 "PO-Revision-Date: 2020-04-21 13:51+0000\n"
-"Last-Translator: pdolinic, 2021\n"
-"Language-Team: German (https://app.transifex.com/foreman/teams/114/de/)\n"
+"Last-Translator: Ewoud Kohl van Wijngaarden "
+"<ewoud+transifex@kohlvanwijngaarden.nl>, 2024\n"
+"Language-Team: Korean (https://app.transifex.com/foreman/teams/114/ko/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: de\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: ko\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 msgid "AzureRM"
 msgstr "AzureRM"
 
 msgid "Existing Azure Resource Group of user"
-msgstr "Vorhandene Azure-Ressourcengruppe des Benutzers"
+msgstr "사용자의 기존 Azure 리소스 그룹"
 
 msgid "VM Size, eg. Standard_A0 etc."
-msgstr "VM-Größe, z. Standard_A0 usw."
+msgstr "VM 크기(예: Standard_A0 등)"
 
 msgid "The Admin username"
-msgstr "Der Admin-Benutzername"
+msgstr "관리자 이름"
 
 msgid "The Admin password"
-msgstr "Das Admin-Passwort"
+msgstr "관리자 비밀번호"
 
 msgid "OS type eg. Linux"
-msgstr "Betriebssystemtyp zB. Linux"
+msgstr "OS 유형 예: Linux"
 
 msgid "SSH key for passwordless authentication"
-msgstr "SSH-Schlüssel für die passwortlose Authentifizierung"
+msgstr "비밀번호 없는 인증을 위한 SSH 키"
 
 msgid "OS disk caching"
-msgstr "Caching von Betriebssystem-Festplatten"
+msgstr "OS 디스크 캐싱"
 
 msgid "Premium OS Disk, Boolean as 0 or 1"
-msgstr "Premium OS Disk, Boolean als 0 oder 1"
+msgstr "프리미엄 OS 디스크, 부울은 0 또는 1입니다."
 
 msgid "Custom Script Command"
-msgstr "Benutzerdefinierter Skriptbefehl"
+msgstr "사용자 정의 스크립트 명령"
 
 msgid "Comma seperated file URIs"
-msgstr "Durch Kommas getrennte Datei-URIs"
+msgstr "쉼표로 구분된 파일 URI"
 
 msgid "Select one of available Azure Subnets, must be an ID"
-msgstr "Wählen Sie eines der verfügbaren Azure-Subnetze aus, muss eine ID sein"
+msgstr "사용 가능한 Azure 서브넷 중 하나를 선택하세요. ID여야 합니다."
 
 msgid "Public IP (None, Static, Dynamic)"
-msgstr "Öffentliche IP (Keine, Statisch, Dynamisch)"
+msgstr "공용 IP(없음, 고정, 동적)"
 
 msgid "Static Private IP (expressed as true or false)"
-msgstr "Statische private IP (ausgedrückt als wahr oder falsch)"
+msgstr "정적 개인 IP(true 또는 false로 표현됨)"
 
 msgid "Volume Size in GB (integer value)"
-msgstr "Volume-Größe in GB (Ganzzahlwert)"
+msgstr "GB 단위의 볼륨 크기(정수 값)"
 
 msgid "Data Disk Caching (None, ReadOnly, ReadWrite)"
-msgstr "Caching von Datenfestplatten (keine, ReadOnly, ReadWrite)"
+msgstr "데이터 디스크 캐싱(없음, 읽기 전용, 읽기/쓰기)"
 
 msgid "tenant"
-msgstr "Tenant"
+msgstr "테넌트"
 
 msgid "app_ident"
 msgstr "app_ident"
@@ -79,7 +80,7 @@ msgid "sub_id"
 msgstr "sub_id"
 
 msgid "region"
-msgstr "Region"
+msgstr "지역"
 
 msgid "cloud"
-msgstr ""
+msgstr "클라우드"

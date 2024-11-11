@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: hammer_cli_foreman_azure_rm 0.2.4\n"
+"Project-Id-Version: hammer_cli_foreman_azure_rm 0.3.2\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-12 14:51+0000\n"
 "PO-Revision-Date: 2023-07-12 14:51+0000\n"
